@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="heap.A3Test" tests="33" skipped="0" failures="5" errors="0" timestamp="2023-11-17T20:13:23" hostname="DennisLaptop" time="0.064">
+  <properties/>
+  <testcase name="test100Add" classname="heap.A3Test" time="0.005"/>
+  <testcase name="test110Swap" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test115Add_BubbleUp" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test117Add_BubbleUpDuplicatePriorities" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test120Peek" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test130Poll_BubbleDown_NoDups" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test140testDuplicatePriorities" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test170Strings" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test190BigTests" classname="heap.A3Test" time="0.007"/>
+  <testcase name="test210PutGet" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test211PutGet" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test212Put" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test213Put" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test230PutGet" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test231Put" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test240ContainsKey" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test241ContainsKey" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test250Remove" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test251Remove" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test280Grow" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test281Rehash" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test290Strings" classname="heap.A3Test" time="0.005"/>
+  <testcase name="test291Strings" classname="heap.A3Test" time="0.021"/>
+  <testcase name="test300Add" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test310Swap" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test315Add_BubbleUp" classname="heap.A3Test" time="0.0"/>
+  <testcase name="test317Add_BubbleUpDuplicatePriorities" classname="heap.A3Test" time="0.001"/>
+  <testcase name="test330Poll_BubbleDown_NoDups" classname="heap.A3Test" time="0.002">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at heap.A3Test.checkPhase3(A3Test.java:100)
+	at heap.A3Test.test330Poll_BubbleDown_NoDups(A3Test.java:731)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test340testDuplicatePriorities" classname="heap.A3Test" time="0.001">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at heap.A3Test.checkPhase3(A3Test.java:100)
+	at heap.A3Test.test340testDuplicatePriorities(A3Test.java:787)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test350contains" classname="heap.A3Test" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
+	at heap.Heap.contains(Heap.java:208)
+	at heap.A3Test.test350contains(A3Test.java:800)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test360ChangePriority" classname="heap.A3Test" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
+	at heap.Heap.changePriority(Heap.java:218)
+	at heap.A3Test.test360ChangePriority(A3Test.java:813)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test370Strings" classname="heap.A3Test" time="0.0">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at heap.A3Test.checkPhase3(A3Test.java:100)
+	at heap.A3Test.test370Strings(A3Test.java:862)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test390BigTests" classname="heap.A3Test" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

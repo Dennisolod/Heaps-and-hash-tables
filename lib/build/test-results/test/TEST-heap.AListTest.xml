@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="heap.AListTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-11-17T20:13:24" hostname="DennisLaptop" time="0.003">
+  <properties/>
+  <testcase name="test00Constructors" classname="heap.AListTest" time="0.001"/>
+  <testcase name="test10Resize" classname="heap.AListTest" time="0.0"/>
+  <testcase name="test20PutGet" classname="heap.AListTest" time="0.001"/>
+  <testcase name="test21PutGet" classname="heap.AListTest" time="0.0"/>
+  <testcase name="test30Append" classname="heap.AListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
